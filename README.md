@@ -7,13 +7,7 @@ Helpers and syntactic sugars on top of [vue-test-utils](https://github.com/vuejs
 First install the package with yarn or npm:
 
 ```bash
-$ yarn add vue-test-helpers --dev
-```
-
-Also you'll need a peer dependency of `vue-test-utils`. Install it with:
-
-```bash
-$ yarn add @vue/test-utils --dev
+$ npm install pmochine/vue-test-helpers --save-dev
 ```
 
 Then, before your tests (for example in a setup script), import and call the function:

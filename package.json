@@ -1,12 +1,12 @@
 {
   "name": "vue-test-helpers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Helpers for vue-test-utils",
   "repository": "phanan/vue-test-helpers",
   "main": "dist/vue-test-helpers.min.js",
   "scripts": {
     "lint": "eslint src",
-    "test": "yarn lint && mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
+    "test": "npm run lint && mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
     "build": "NODE_ENV=production && BABEL_ENV=production && webpack"
   },
   "keywords": [
@@ -32,10 +32,10 @@
     ]
   },
   "peerDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.20"
+    "@vue/test-utils": "^1.0.0-beta.26"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/test-utils": "^1.0.0-beta.26",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
@@ -62,9 +62,9 @@
     "mocha-webpack": "^1.0.1",
     "sinon": "^4.1.6",
     "sinon-chai": "^2.14.0",
-    "vue": "^2.5.13",
+    "vue": "^2.5.22",
     "vue-loader": "^13.7.0",
-    "vue-template-compiler": "^2.5.13",
+    "vue-template-compiler": "^2.5.22",
     "webpack": "^3.10.0"
   },
   "dependencies": {
